@@ -8,15 +8,13 @@ This is a high-contrast, dark colorscheme for [newsbeuter](https://github.com/ak
 
 ## Installation
 
-Include it as part of your `~/.newsbeuter/config` file.
+Include `newsbeuter-colors-neonwolf-256.conf` as part of your `~/.newsbeuter/config` file.
 
     $ mkdir -p ~/.newsbeuter
-    $ cp newsbeuter-colors-neonwolf-256.conf ~/.newsbeuter
-    $ echo '~/.newsbeuter/newsbeuter-colors-neonwolf-256.conf' >>~/.newsbeuter/config
-
-Or if you're particularly lazy:
-
-    $ cat newsbeuter-colors-neonwolf-256.conf >>~/.newsbeuter/config
+    $ cd ~/.newsbeuter
+    $ git clone https://github.com/h3xx/newsbeuter-colors-neonwolf.git newsbeuter-colors-neonwolf
+    $ ln -s newsbeuter-colors-neonwolf/newsbeuter-colors-neonwolf-256.conf .
+    $ echo 'include ~/.newsbeuter/newsbeuter-colors-neonwolf-256.conf' >>~/.newsbeuter/config
 
 ## Contributing
 
