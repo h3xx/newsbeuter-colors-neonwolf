@@ -1,35 +1,16 @@
 # Neonwolf Colorscheme for Newsbeuter
 
-This is a high-contrast, dark colorscheme for [newsbeuter](https://github.com/akrennmair/newsbeuter) that was inspired by the badwolf series of color schemes.
+This project has moved to Codeberg:
+https://codeberg.org/h3xx/newsbeuter-colors-neonwolf
 
-![sample feed view](/../flair/screenshots/sample-feed.png)
+# Give Up GitHub
 
-![sample article view](/../flair/screenshots/sample-article.png)
+This project has given up GitHub. ([See Software Freedom Conservancy's *Give Up GitHub* site for details](https://giveupgithub.org).)
 
-## Installation
+You can now find this project at https://codeberg.org/h3xx/newsbeuter-colors-neonwolf instead.
 
-Include `newsbeuter-colors-neonwolf-256.conf` as part of your `~/.newsbeuter/config` file.
+Any use of this project's code by GitHub Copilot, past or present, is done without our permission. We do not consent to GitHub's use of this project's code in Copilot.
 
-    $ mkdir -p ~/.newsbeuter
-    $ cd ~/.newsbeuter
-    $ git clone https://github.com/h3xx/newsbeuter-colors-neonwolf.git newsbeuter-colors-neonwolf
-    $ ln -s newsbeuter-colors-neonwolf/newsbeuter-colors-neonwolf-256.conf .
-    $ echo 'include ~/.newsbeuter/newsbeuter-colors-neonwolf-256.conf' >>~/.newsbeuter/config
+Join us; you can [give up GitHub](https://giveupgithub.org) too!
 
-## Contributing
-
-Send me a pull request!
-
-## TODO
-
-Develop a low-color variant.
-
-## License
-
-Copyright (C) 2017-2018 Dan Church.
-
-License: MIT
-
-This is free software: you are free to change and redistribute it.
-
-There is NO WARRANTY, to the extent permitted by law.
+![Logo of the GiveUpGitHub campaign](https://sfconservancy.org/img/GiveUpGitHub.png)
